@@ -7,6 +7,7 @@ import fmpsdk
 
 # Actual API key is stored in a .env file.  Not good to store API key directly in script.
 load_dotenv()
+# TODO pull from local keys data store, or from secret file using docker-compose
 apikey = os.environ.get("apikey")
 
 # Company Valuation Methods
